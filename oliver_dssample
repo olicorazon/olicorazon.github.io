@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple design system - by Oliver </title>
+    <link href="/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <section>
+        <h1>Colors</h1>
+      </section>
+
+      <section>
+      <h2>Primary</h2>
+
+        <div class="colorcontainer">
+          <div class="shape p50">
+          </div>
+          <p class="colorcode">Prim. 50<br>#e9ecfb</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape p100">
+          </div>
+          <p class="colorcode">Prim.100<br>#bdc5f4</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape p200">
+          </div>
+          <p class="colorcode">Prim. 200<br>#919fed</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape p300">
+          </div>
+          <p class="colorcode">Prim. 300<br>#6579e6</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape p400">
+          </div>
+          <p class="colorcode">Prim. 400<br>#3952df</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape p500">
+          </div>
+          <p class="colorcode">Prim. 500<br>#2039c6</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Secondary</h2>
+
+        <div class="colorcontainer">
+          <div class="shape s50">
+          </div>
+          <p class="colorcode">Sec. 50<br>#edf5f8</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape s100">
+          </div>
+          <p class="colorcode">Sec. 100<br>#c8e1ea</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape s200">
+          </div>
+          <p class="colorcode">Sec. 200<br>#bdc5f4</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape s300">
+          </div>
+          <p class="colorcode">Sec.300<br>#a3cddb</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape s400">
+          </div>
+          <p class="colorcode">Sec. 400<br>#5aa5bf</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape s500">
+          </div>
+          <p class="colorcode">Sec. 500<br>#408ca5</p>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>Tertiary</h2>
+
+        <div class="colorcontainer">
+          <div class="shape t50">
+          </div>
+          <p class="colorcode">Ter. 50<br>#f6edf8</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape t100">
+          </div>
+          <p class="colorcode">Ter. 100<br>#e4c8ea</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape t200">
+          </div>
+          <p class="colorcode">Ter. 200<br>#d2a3db</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape t300">
+          </div>
+          <p class="colorcode">Ter. 300<br>#c07ecd</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape t400">
+          </div>
+          <p class="colorcode">Ter. 400<br>#ae5abf</p>
+        </div>
+
+        <div class="colorcontainer">
+          <div class="shape t500">
+          </div>
+          <p class="colorcode">Ter. 500<br>#9540a5</p>
+        </div>
+      </section>
+      <section>
+        <h1>Text styles</h1>
+      </section>
+        <section>
+          <div class="titletext">
+          <h4>H1 - April Fat Face - Size: 40px - Font Weight: 500</h4>
+        </div>
+        <div class="text">
+        <div class="textsample">
+          <h1 class="h1design">
+          AaBb</h1>
+        </div>
+        <div class="textsample">
+        <h1 class="h1design">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        </div>
+        </div>
+      </section>
+      <section>
+          <div class="titletext">
+          <h4>H2 - April Fat Face - Size: 32px - Font Weight: 500</h4>
+        </div>
+        <div class="text">
+        <div class="textsample">
+          <h2 class="h2design">
+          AaBb</h2>
+        </div>
+        <div class="textsample">
+        <h2 class="h2design">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+        </div>
+        </div>
+      </section>
+      <section>
+          <div class="titletext">
+          <h4>H3 - April Fat Face - Size: 24px - Font Weight: 500 - Text Transform: uppercase</h4>
+        </div>
+        <div class="text">
+        <div class="textsample">
+          <h3 class="h3design">
+          AaBb</h3>
+        </div>
+        <div class="textsample">
+        <h3 class="h3design">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+        </div>
+        </div>
+      </section>
+
+  </body>
+</html>
