@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 24px 16px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 8px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: gray;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+p.colorcode {
+  font-family: sans-serif;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  margin-top: 8px;
+  color: gray;
+  font-size: 14px;
+}
+
+section {
+  background-color: #F8F8F8;
+  padding: 24px 16px;
+  margin: auto;
+}
+
+.colorcontainer {
+  display: inline-block;
+  margin: 8px;
+}
+
+
+.shape {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.p50 {
+  background-color: #e9ecfb;
+}
+
+.p100 {
+  background-color: #bdc5f4;
+}
+
+.p200 {
+  background-color: #919fed;
+}
+
+.p300 {
+  background-color: #6579e6;
+}
+
+.p400 {
+  background-color: #3952df;
+}
+
+.p500 {
+  background-color: #2039c6;
+}
+
+.s50 {
+  background-color: #edf5f8;
+}
+
+.s100 {
+  background-color: #c8e1ea;
+}
+
+.s200 {
+  background-color: #a3cddb;
+}
+
+.s300 {
+  background-color: #7eb9cd;
+}
+
+.s400 {
+  background-color: #5aa5bf;
+}
+
+.s500 {
+  background-color: #408ca5;
+}
+
+.t50 {
+  background-color: #f6edf8;
+}
+
+.t100 {
+  background-color: #e4c8ea;
+}
+
+.t200 {
+  background-color: #d2a3db;
+}
+
+.t300 {
+  background-color: #c07ecd;
+}
+
+.t400 {
+  background-color: #ae5abf;
+}
+
+.t500 {
+  background-color: #9540a5;
+}
+
+.textsample {
+  display: inline-block;
+}
+
+.text {
+  display: flex;
+  border-bottom: 1px solid #d6d5d750;
+}
+
+.titletext {
+  padding: 0 16px;
+}
+
+.h1design {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  text-transform: none;
+  letter-spacing: 1px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #3b3a3d;
+}
+
+.h2design {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  text-transform: none;
+  letter-spacing: 1px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #3b3a3d;
+  margin: 24px 16px;
+}
+
+.h3design {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 1px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #3b3a3d;
+  text-transform: uppercase;
+  margin: 24px 16px;
+}
