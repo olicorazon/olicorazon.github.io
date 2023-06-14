@@ -207,7 +207,7 @@ button.primary:hover {
     background-color: #ffffff;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-image: url(../business_site/resources/img_bgteam.png);
+    background-image: url(./img_bgteam.png);
     background-position: center;
     background-size: cover;
 
