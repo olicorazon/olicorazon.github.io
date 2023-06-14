@@ -1,0 +1,557 @@
+html {
+    font-size: 8px;
+    background-color: #ffecfc;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: "Lilita One", cursive;
+}
+
+h1.texthero {
+    font-size: 9rem;
+    color: #ffc4f7;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.412);
+}
+
+h2 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 4rem;
+    color: #570e4e;
+}
+
+h3 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2.5rem;
+    color: #570e4e;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+
+ ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 2rem;
+ }
+
+ li {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+    margin: 0 2rem;
+    transition: all 0.5s ease;
+    color: #570e4e;
+ }
+
+ li:hover {
+    color: #c720b1;
+    transition: 0.5s;
+ }
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 14rem;
+    margin: 0;
+}
+
+.grouplogo {
+    display: flex;
+    align-items: center;
+}
+
+.catchphrase p {
+    font-size: 2.2rem;
+    padding: 1rem;
+    font-family: "Lilita One", cursive;
+    color: #570e4e;
+    text-transform: uppercase;
+
+}
+
+.containerlogo {
+    margin: 0;
+}
+
+
+.hero {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../business_site/resources/img_hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 55rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenthero {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+button.primary {
+    padding: 2rem;
+    background-color: #c720b1;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+    border-radius: 8px;
+    border: 0;
+    color: #ffffff;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+button.primary:hover {
+    background-color: #fe00dc;
+    transition: 0.5s;
+}
+
+.products {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.productslist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titleproducts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardproduct {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 2px solid rgb(253, 202, 243);
+    border-radius: 1rem;
+    width: 320px;
+    background-color: #fff7f7;
+    transition: all 0.5s ease;
+}
+
+.cardproduct:hover{
+    box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    -webkit-box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    -moz-box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    transition: 0.5s;
+} 
+
+.cardproduct img {
+    width: 100%;
+    height: auto;
+}
+
+.cardcontent {
+    padding: 2rem 1.5rem;
+}
+
+.cardproduct h3 {
+    margin: 0;
+    color: #570e4e;
+}
+
+.cardproduct p {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    color: #565256;
+
+}
+
+.imgproduct {
+    height: 21rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: .87rem .87rem 0 0;
+    width: 100%;
+
+}
+
+.team {
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-image: url(../business_site/resources/img_bgteam.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.titleteam {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.teamlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cardteam img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+.cardteam {
+    display: flex;
+    margin: 2rem;
+    border: 2px solid rgb(253, 202, 243);
+    border-radius: 1rem;
+    width: 400px;
+    background-color: #fff7f7;
+    transition: all 0.5s ease;
+}
+
+.cardteam:hover {
+    box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    -webkit-box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    -moz-box-shadow: -3px 8px 68px -36px rgba(255,0,0,0.61);
+    transition: 0.5s;
+}
+
+.contentteam {
+    padding: 2rem;
+    width: 50%;
+    margin: 0;
+}
+
+.cardteam h3 {
+    margin: 0;
+    color: #570e4e;
+}
+
+.cardteam p {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    color: #565256;
+}
+
+.imgteam {
+    overflow: hidden;
+    display: flex;
+    border-radius: .87rem 0 0 .87rem;
+    width: 50%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #e6c9e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6rem;
+    color: #570e4e;
+}
+
+.socialfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_socialicons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer img {
+    width: 3.5rem;
+    height: auto;
+}
+
+footer h4 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+footer h5 {
+    font-size: 3rem;
+}
+
+
+/* media queries */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+    }
+
+    .catchphrase p {
+        display: none;
+    
+    }
+
+    h1.texthero {
+        font-size: 8rem;
+        color: #ffc4f7;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.412);
+    }
+
+    .contenthero {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    li {
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 2.4rem;
+        margin: 0 1.2rem;
+        transition: all 0.5s ease;
+        color: #570e4e;
+
+     }
+
+
+     .productslist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cardproduct {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 2px solid rgb(253, 202, 243);
+    border-radius: 1rem;
+    width: 420px;
+    background-color: #fff7f7;
+    transition: all 0.5s ease;
+     }
+
+     .cardproduct p {
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+        color: #565256;
+    
+    }
+
+    .teamlist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .cardteam {
+        display: flex;
+        margin: 2rem;
+        border: 2px solid rgb(253, 202, 243);
+        border-radius: 1rem;
+        width: 600px;
+        background-color: #fff7f7;
+        transition: all 0.5s ease;
+    }
+
+    .cardteam p {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        color: #565256;
+    }
+
+    button.primary {
+        padding: 1.5rem;
+        background-color: #c720b1;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 2.5rem;
+        border-radius: 8px;
+        border: 0;
+        color: #ffffff;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+
+    nav img {
+        width: 10rem;
+        margin: 0;
+    }
+
+    .catchphrase p {
+        display: none;
+    
+    }
+
+    h1.texthero {
+        font-size: 6rem;
+        color: #ffc4f7;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.412);
+    }
+
+    .contenthero {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    li {
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 2rem;
+        margin: 0 .8rem;
+        transition: all 0.5s ease;
+        color: #570e4e;
+
+     }
+
+
+     .productslist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cardproduct {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 2px solid rgb(253, 202, 243);
+    border-radius: 1rem;
+    width: 420px;
+    background-color: #fff7f7;
+    transition: all 0.5s ease;
+     }
+
+     .cardproduct p {
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+        color: #565256;
+    
+    }
+
+    .teamlist {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 3rem;
+    }
+
+    .team {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardteam {
+        display: flex;
+        margin: 1rem;
+        border: 2px solid rgb(253, 202, 243);
+        border-radius: 1rem;
+        width: 100%;
+        height: auto;
+        background-color: #fff7f7;
+        transition: all 0.5s ease;
+    }
+
+    .cardteam p {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        color: #565256;
+    }
+
+
+
+    button.primary {
+        padding: 2rem;
+        background-color: #c720b1;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 2rem;
+        border-radius: 8px;
+        border: 0;
+        color: #ffffff;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #e6c9e2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 3rem 6rem;
+        color: #570e4e;
+    }
+    
+    footer h4 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    
+    footer h5 {
+        font-size: 2rem;
+    }
+
+}
