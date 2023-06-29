@@ -360,8 +360,110 @@ button.primary:hover {
        flex-direction: column;
     }
 
-    
+}
 
+@media only screen
+  and (device-width: 414px)
+  and (device-height: 896px)
+  and (-webkit-device-pixel-ratio: 2)
+{
+    nav {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    li {
+        font-size: 2.2rem;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .content_hero h1 {
+        font-size: 8rem;
+        padding-inline: 10rem;
+        color: rgb(0, 153, 153);
+        margin: 0;
+        margin-bottom: 4rem;
+        line-height: 75%;
+    }
+
+    .img_container img {
+        padding: 0;
+    }
+
+    .gallery_intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content_intro h2 {
+        font-size: 5rem;
+        line-height: 80%;
+    }
+    .quote {
+        width: 100%;
+        padding: 15rem 2.5rem;
+        
+    }
+
+    .quote h1 {
+        font-size: 8rem;
+        margin: 0;
+        line-height: 75%;
+        padding-bottom: 3rem;
+    }
+
+    .closure {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .closure h2 {
+        font-size: 6rem;
+        line-height: 4.5rem;
+        margin: 1rem;
+        color: rgb(0, 153, 153);
+        margin-bottom: 1rem;
+    }
+
+    .content_closure {
+        padding: 0 0 6rem 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .closure p {
+        padding-left: 0;
+        margin-bottom: 4rem;
+    }
+
+    .container_bttn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        height: auto;
+        justify-content: center;
+    }
+
+    .footer ul {
+       display: flex;
+       flex-direction: column;
+    }
 
 }
 
