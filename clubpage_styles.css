@@ -262,13 +262,28 @@ button.primary:hover {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
 
     li {
         font-size: 2.2rem;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
     }
 
     .content_hero h1 {
-        font-size: 10rem;
+        font-size: 8rem;
         padding-inline: 10rem;
         color: rgb(0, 153, 153);
         margin: 0;
@@ -285,6 +300,10 @@ button.primary:hover {
         flex-direction: column;
     }
 
+    .content_intro h2 {
+        font-size: 5rem;
+        line-height: 80%;
+    }
     .quote {
         width: 100%;
         padding: 15rem 2.5rem;
